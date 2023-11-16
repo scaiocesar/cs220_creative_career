@@ -13,6 +13,18 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+
+    <style>
+        .team-member-img {
+            width: 150px;  /* Fixed width */
+            height: 150px; /* Fixed height, same as width for a circle */
+            object-fit: cover; /* Ensures the image covers the area properly */
+            border-radius: 50%; /* Makes the image circular */
+            margin-bottom: 20px; /* Adjust the value as needed */
+
+        }
+    </style>
+
     <body class="d-flex flex-column">
         <main class="flex-shrink-0">
              <!-- Navigation-->
@@ -82,35 +94,36 @@
                     <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
                         <div class="col mb-5 mb-5 mb-xl-0">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="img/caio.png" alt="..." />
+                                <img class="rounded-circle team-member-img" src="img/caio.png" alt="..." />
                                 <h5 class="fw-bolder">Caio Vaz</h5>
                                 <div class="fst-italic text-muted">Founder &amp; CEO</div>
                             </div>
                         </div>
                         <div class="col mb-5 mb-5 mb-xl-0">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="img/vida.png" alt="..." />
+                                <img class="rounded-circle team-member-img" src="img/vida.png" alt="..." />
                                 <h5 class="fw-bolder">Vida Lima</h5>
                                 <div class="fst-italic text-muted">CFO</div>
                             </div>
                         </div>
                         <div class="col mb-5 mb-5 mb-sm-0">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                                <h5 class="fw-bolder">Toribio Nerthus</h5>
+                                <img class="rounded-circle team-member-img" src="img/giordan.jpg" alt="..." />
+                                <h5 class="fw-bolder">Giordan Vargas</h5>
                                 <div class="fst-italic text-muted">Operations Manager</div>
                             </div>
                         </div>
                         <div class="col mb-5">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="img/Gustavo.jpg" alt="..." />
-                                <h5 class="fw-bolder">Gustavo Oyarce</h5>
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                                <h5 class="fw-bolder">Malvina Cilla</h5>
                                 <div class="fst-italic text-muted">CTO</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
         </main>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
